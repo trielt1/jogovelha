@@ -38,7 +38,6 @@ function play(){
     if(!playing) playing = true;
 
     if((!casas[4].src.includes(vazio)) && (!casas[4].src.includes(player)) && (!casas[4].src.includes(computer))){
-        console.log(casas[4].src);
         casas[4].src = vazio;
     }
 

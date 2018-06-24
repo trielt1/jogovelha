@@ -5,19 +5,36 @@
     </head>
     <body>
         <div id="container">
-            <div id="topo"></div>
-            <div id="velha">
-                <div class="casa"></div>
-                <div class="casa"></div>
-                <div class="casa"></div>
-                <div class="casa"></div>
-                <div class="casa"></div>
-                <div class="casa"></div>
-                <div class="casa"></div>
-                <div class="casa"></div>
-                <div class="casa"></div>
+            <div id="topo">
+                <table>
+                    <tr>
+                        <td align = "left"> <button id="seletor" onclick="changeMode()">JOGAR COMO X</button> </td> 
+                    </tr>
+                </table>
             </div>
-            <div id="fim"></div>
+            <div id="velha">
+                    <img class="casa" src="">
+                    <img class="casa" src="">
+                    <img class="casa" src="">
+                    <img class="casa" src="">
+                    <img class="casa" src="">
+                    <img class="casa" src="">
+                    <img class="casa" src="">
+                    <img class="casa" src="">
+                    <img class="casa" src="">
+            </div>
+            <div id="fim">
+                    <table>
+                        <tr align = "left">
+                            <td> <h3>Placar: </h3> </td>
+                            <td> <h3 id = "placar_pc">0</h3> </td>
+                            <td> <h3>X</h3> </td>
+                            <td> <h3 id = "placar_cpu">0</h3> </td>
+                        </tr>
+                    </table>
+                </div>
         </div>
+
+        <script type="text/javascript" src="backend.js"></script>
     </body>
 </html>
